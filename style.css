@@ -1,0 +1,102 @@
+/*============ fonts ============*/
+
+@font-face {
+    font-family: Kanit;
+    src: url('assets/font/Kanit/Kanit-Regular.ttf');
+}
+/*============ navbar ============*/
+ul {
+  list-style-type: none;
+    display: flex;
+   justify-content: space-around;
+   width: 400px;
+
+}
+.nav {
+    height: 60px;
+    background-color: #225566;
+    color: white;
+    position: fixed;
+    width: 98.5%;
+    font-family: Kanit;
+    z-index: 11;
+}
+ul > li {
+    align-self: center;
+}
+.nav-inner {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.background-image {
+    background-image: url('./assets/img/computer.jpg');
+    background-size: cover;
+    display: block;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 800px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+}
+
+.content {
+  /*background: rgba(255, 255, 255, 0.35);*/
+  /*border-radius: 3px;*/
+  /*box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);*/
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  top: 80px;
+  left: 0;
+  position: fixed;
+  margin-left: 20px;
+  margin-right: 20px;
+  right: 0;
+  z-index: 2;
+  padding: 0 10px;
+  display: flex;
+  /*justify-content: center;*/
+  /*flex-wrap: wrap;*/
+  align-items: center;
+  flex-direction: column;
+  /*height: 500px;*/
+}
+.content > h1 {
+    background-color: mediumseagreen;
+    width: 300px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    text-shadow: 0.25rem 0.25rem seagreen;
+} 
+.content > img {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+    /*align-self: center;*/
+}
+.content > p {
+    margin-top: 0;
+	margin-bottom: 0;
+    background-color: #225566;
+    color: white;
+    width: 240px;
+    height: 24px;
+    line-height: 24px;  
+    text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Kanit;
+	font-size: 2em;
+	font-weight: 300;
+  
+	margin-top: 0;
+	margin-bottom: 0;
+}

@@ -34,8 +34,7 @@ ul > li {
     background-image: url('./assets/img/computer.jpg');
     background-size: cover;
     display: block;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
+
     height: 500px;
     left: 0;
     /*position: fixed;*/
@@ -44,9 +43,7 @@ ul > li {
 }
 
 .content {
-  /*background: rgba(255, 255, 255, 0.35);*/
-  /*border-radius: 3px;*/
-  /*box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);*/
+  
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   top: 80px;
   left: 0;
@@ -57,10 +54,8 @@ ul > li {
   z-index: 2;
   padding: 0 10px;
   display: flex;
-
   align-items: center;
   flex-direction: column;
-  /*height: 500px;*/
 }
 .content > h1 {
     background-color: mediumseagreen;
@@ -86,6 +81,7 @@ ul > li {
     height: 24px;
     line-height: 24px;  
     text-align: center;
+    cursor: default;
 }
 h1,
 h2,
@@ -96,39 +92,39 @@ h6 {
 	font-family: Kanit;
 	font-size: 2em;
 	font-weight: 300;
-  
+    cursor: default;
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
 .about {
-    background-image: url('./assets/img/skyline.jpg');
+    background-image: url('./assets/img/inter.jpg');
     background-size: cover;
     display: block;
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
+    color: white;
     height: 500px;
+    top: 428px;
     left: 0;
-    /*position: fixed;*/
     right: 0;
     z-index: 1;
+    position: absolute;
 
 }
 .social-links > a {
     text-decoration: none;
     background-color: #FFFFFF;
     color: black;
-    width:30px;
-    height: 30px;
+    width:35px;
+    height: 35px;
     text-align: center;
-    line-height: 30px;
+    line-height: 35px;
+    padding: 5px;
+    margin: 10px;
 }
 
 .social-links {
-    height: 30px;
-    width: 150px;
+    width: 250px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
     margin-top: 20px;
 }

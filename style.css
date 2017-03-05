@@ -35,7 +35,7 @@ ul > li {
     background-size: cover;
     display: block;
 
-    height: 500px;
+    height: 560px;
     left: 0;
     /*position: fixed;*/
     right: 0;
@@ -103,7 +103,7 @@ h6 {
     display: block;
     color: white;
     height: 500px;
-    top: 428px;
+    top: 468px;
     left: -12px;
     right: -12px;
     z-index: 1;
@@ -137,20 +137,34 @@ h6 {
 }
 .about > p {
     margin: auto;
-    width: 530px;
+    padding: 7px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 80px;
     background-color: white;
     color: black;
     opacity: 0.7;
+    margin-bottom: 40px;
+    border-radius: 5px;
 }
 
-
+.skillbar-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    width: 580px;
+    margin: auto;
+}
+.skillbar-right, .skillbar-left{
+    width: 40%;
+    
+}
 .skillbar {
-	position:relative;
-	display:block;
+
 	margin-bottom:15px;
 	width:100%;
-	background:#eee;
+	background:rgba(26,2, 3, 0.4);
 	height:35px;
 	border-radius:3px;
 	-moz-border-radius:3px;
@@ -168,14 +182,11 @@ h6 {
 }
 
 .skillbar-title {
-	position:absolute;
 	top:0;
 	left:0;
-width:110px;
 	font-weight:bold;
 	font-size:13px;
 	color:#ffffff;
-	background:#6adcfa;
 	-webkit-border-top-left-radius:3px;
 	-webkit-border-bottom-left-radius:4px;
 	-moz-border-radius-topleft:3px;
@@ -184,7 +195,7 @@ width:110px;
 	border-bottom-left-radius:3px;
 }
 
-.skillbar-title span {
+.skillbar-bar span {
 	display:block;
 	background:rgba(0, 0, 0, 0.1);
 	padding:0 20px;
@@ -199,6 +210,8 @@ width:110px;
 }
 
 .skillbar-bar {
+    display: flex;
+    justify-content: space-between;
 	height:35px;
 	width:0px;
 	background:#6adcfa;
@@ -208,7 +221,7 @@ width:110px;
 }
 
 .skill-bar-percent {
-	position:absolute;
+	/*position:absolute;*/
 	right:10px;
 	top:0;
 	font-size:11px;

@@ -14,14 +14,14 @@
     <nav class="nav">
         <div class="nav-inner">
             <ul>
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>PORTFOLIO</li>
-                <li>CONTACT</li>
+                <a href="#container"><li>HOME</li></a>
+                <a href="#about"><li>ABOUT</li></a>
+                <a href="#portfolio"><li>PORTFOLIO</li></a>
+                <a href=""><li>CONTACT</li></a>
             </ul>
         </div>
     </nav>
-    <section class="container">
+    <section class="container" id="container">
         <div class="background-image"></div>
         <div class="content">
             <img src="./assets/img/profile.jpg" alt="profile picture">
@@ -32,9 +32,9 @@
                 <a href="https://www.linkedin.com/in/mark-fridman-44400396/" target="_blank"><i class="fa fa-linkedin"></i></a>
                 <a href="https://www.facebook.com/mark.fridman" target="_blank"><i class="fa fa-facebook"></i></a>
                 <a href="https://plus.google.com/u/0/101112254407230366806" target="_blank"><i class="fa fa-google-plus"></i></a>
-                <div/>
             </div>
-            <div class="about">
+
+            <div class="about" id="about">
                 <p>Full-stack Web Developer, devoted to building the next say in web-applications with experience in the latest
                     web technologies. Punctual, self-reliant creative, responsible and passionate about building cool stuff
                     with strong communication skills. Specializes in building cross-browser, scalable applications and websites
@@ -43,10 +43,10 @@
                     <div class="skillbar-left">
                         <div class="skillbar" data-percent="90%">
                             <div class="skillbar-bar" style="background: #e67e22;">
-                                
+
                                 <span><img class="img" src="assets/img/html5.png" alt="HTML5 icon">&nbsp HTML5</span>
                                 <div class="skill-bar-percent">90%</div>
-                            </div> 
+                            </div>
                         </div>
 
                         <div class="skillbar" data-percent="80%">
@@ -58,7 +58,7 @@
 
                         <div class="skillbar " data-percent="60%">
                             <div class="skillbar-bar" style="background: #2c3e50;">
-                                
+
                                 <span><img class="img" src="assets/img/jquery.png" alt="jquery icon">&nbsp jQuery</span>
                                 <div class="skill-bar-percent">60%</div>
                             </div>
@@ -67,7 +67,7 @@
 
                         <div class="skillbar " data-percent="85%">
                             <div class="skillbar-bar" style="background: #5a68a5;">
-                                <span><img class="img" src="assets/img/javascript.png" alt="javascript icon">&nbspJavaScript</span>
+                                <span><img class="img" src="assets/img/javascript.png" alt="javascript icon">&nbsp&nbspJavaScript</span>
                                 <div class="skill-bar-percent">85%</div>
                             </div>
                         </div>
@@ -104,7 +104,17 @@
                     </div>
                 </div>
                 <!-- End Skill Bar -->
+                <div class="portfolio" id="portfolio">
+                    <h1>Projects</h1>
+                    <div class="porj-container">
+                        <div>
+                            <a href="https://coding-academy.net/feelmymeal/#/" target="_blank"><img class="proj-img" src="assets/img/sm-feel.png" alt="Feel My Meal Vue.js Project"></a>
+                        </div>
+                        <div><a href="https://coding-academy.net/memeGenerator/ShayPeleg-MarkFridman/" target="_blank"><img class="proj-img" src="assets/img/sm-meme.png" alt="Meme-generator Project"></a></div>
+                    </div>
+                </div>
             </div>
+            
     </section>
     <script src="index.js"></script>
 </body>

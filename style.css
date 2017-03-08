@@ -15,7 +15,6 @@ ul {
 .nav {
     height: 60px;
     background-color: #225566;
-    color: white;
     position: fixed;
     top:0;
     width: 98.5%;
@@ -25,6 +24,11 @@ ul {
 ul > li {
     align-self: center;
 }
+ul > a {
+    text-decoration: none;
+    color: white;
+}
+
 .img {
     width:25px;
     height: 25px;
@@ -35,7 +39,7 @@ ul > li {
     justify-content: center;
     height: 100%;
 }
-.portfolio, .background-image {
+.portfolio, .background-image, #contact {
     background-size: cover;
     height: 560px;
     left: 0;
@@ -146,11 +150,13 @@ h6 {
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 80px;
+    min-width: 530px;
     background-color: white;
     color: black;
     opacity: 0.7;
     margin-bottom: 40px;
     border-radius: 5px;
+    cursor: default;
 }
 
 .skillbar-container {
@@ -160,6 +166,7 @@ h6 {
     margin-top: 40px;
     max-width: 580px;
     margin: auto;
+    margin-bottom: 70px;
 }
 .skillbar-right, .skillbar-left{
     width: 250px;
@@ -238,7 +245,6 @@ h6 {
 }
 .portfolio {
     background-image: url('./assets/img/screen.jpg');
-    margin-top: 60px;
     display: flex;
     justify-content: center;
 }
@@ -249,4 +255,13 @@ h6 {
 }
 .porj-container img {
     max-width: 300px;
+}
+.portfolio > h1 {
+    position: absolute;
+}
+
+#contact {
+    background-image: url('./assets/img/museum.jpg');
+    display: flex;
+    justify-content: center;
 }

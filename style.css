@@ -264,4 +264,12 @@ h6 {
     background-image: url('./assets/img/museum.jpg');
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.input {
+    padding: 12px;
+}
+#contact_form {
+
 }

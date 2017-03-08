@@ -14,10 +14,18 @@
     <nav class="nav">
         <div class="nav-inner">
             <ul>
-                <a href="#container"><li>HOME</li></a>
-                <a href="#about"><li>ABOUT</li></a>
-                <a href="#portfolio"><li>PORTFOLIO</li></a>
-                <a href=""><li>CONTACT</li></a>
+                <a href="#container">
+                    <li>HOME</li>
+                </a>
+                <a href="#about">
+                    <li>ABOUT</li>
+                </a>
+                <a href="#portfolio">
+                    <li>PORTFOLIO</li>
+                </a>
+                <a href="">
+                    <li>CONTACT</li>
+                </a>
             </ul>
         </div>
     </nav>
@@ -110,15 +118,30 @@
                         <div>
                             <a href="https://coding-academy.net/feelmymeal/#/" target="_blank"><img class="proj-img" src="assets/img/sm-feel.png" alt="Feel My Meal Vue.js Project"></a>
                         </div>
-                        <div><a href="https://coding-academy.net/memeGenerator/ShayPeleg-MarkFridman/" target="_blank"><img class="proj-img" src="assets/img/sm-meme.png" alt="Meme-generator Project"></a></div>
+                        <div>
+                            <a href="https://coding-academy.net/memeGenerator/ShayPeleg-MarkFridman/" target="_blank"><img class="proj-img" src="assets/img/sm-meme.png" alt="Meme-generator Project"></a>
+                        </div>
                     </div>
                 </div>
                 <div id="contact">
-                    <h2>Let's get in touch</h2>
-                    
+                    <h2></h2>
+                    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                        <div class="row">
+                            <input id="name" class="input" placeholder="Name" name="name" type="text" value="" size="60" /><br />
+                        </div>
+                        <div class="row">
+                            <input id="email" class="input" placeholder="Email" name="email" type="text" value="" size="60" /><br />
+                        </div>
+                        <div class="row">
+                            <input id="email" class="input" placeholder="Subject" name="email" type="text" value="" size="60" /><br />
+                        </div>
+                        <div class="row">
+                            <textarea id="message" class="input" placeholder="Description" name="message" rows="7" cols="50"></textarea><br />
+                        </div>
+                        <input id="submit_button" type="submit" value="Send email" />
                 </div>
             </div>
-            
+
     </section>
     <script src="index.js"></script>
 </body>

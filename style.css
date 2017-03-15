@@ -121,8 +121,9 @@ h6 {
 }
 .social-links > a {
     text-decoration: none;
-    background-color: mediumseagreen;
-    color: white;
+    background-color: #FFFFFF;
+    color: black;
+    border: solid 2px;
     width:35px;
     height: 35px;
     text-align: center;
@@ -130,19 +131,18 @@ h6 {
     padding: 5px;
     margin: 10px;
     transition: background-color 1s;
-
 }
 .social-links > a:hover {
-    color:black;
-    background-color: white;
+
+    background-color: mediumseagreen;
     
 }
 
 .social-links {
-    width: 250px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
+
 
 }
 .about > p {

@@ -121,8 +121,8 @@ h6 {
 }
 .social-links > a {
     text-decoration: none;
-    background-color: #FFFFFF;
-    color: black;
+    background-color: mediumseagreen;
+    color: white;
     width:35px;
     height: 35px;
     text-align: center;
@@ -130,10 +130,11 @@ h6 {
     padding: 5px;
     margin: 10px;
     transition: background-color 1s;
+
 }
 .social-links > a:hover {
-
-    background-color: mediumseagreen;
+    color:black;
+    background-color: white;
     
 }
 

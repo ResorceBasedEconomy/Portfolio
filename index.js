@@ -9,7 +9,5 @@ function myFunc(event) {
 			},1500);
 		});
 	}
-	
-
 }
 
